@@ -8,11 +8,52 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    background-color: #1f2937;
 }
 
-.awesome {
+.hero, .footer {
+    background-color: #1f2937;
+}
+
+.hero {
+    color: #f9faf8;
     display: flex;
-    flex: 1;
+}
+
+.awesome_header {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.left_links {
+    size: 24px;
+    color: #f9faf8;
+}
+
+.sign_up {
+    background-color: #3882f6;
+}
+
+.title2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.inspirational_quote {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.awesome_content, .right_links {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .random_info {
